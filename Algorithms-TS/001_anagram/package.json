@@ -1,0 +1,29 @@
+{
+    "name": "anagram",
+    "version": "1.0.0",
+    "description": "Given two strings, write a function to determine if the second string is an anagramof the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as, \"cinema\" formed from \"iceman\".",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "jest": {
+        "transform": {
+            ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+        },
+        "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+        "moduleFileExtensions": [
+            "ts",
+            "tsx",
+            "js"
+        ]
+    },
+    "devDependencies": {
+        "@types/jest": "^26.0.3",
+        "jest": "^26.1.0",
+        "ts-jest": "^26.1.1",
+        "typescript": "^3.9.5"
+    }
+}

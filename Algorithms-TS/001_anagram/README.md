@@ -22,6 +22,8 @@ create function called "isAnagramValid"
 
     if both strings has the same length... we continue
 
+    if both strings are the same... We stop
+
     Iterate first string and save how many letters exists
 
     Iterate second string and save how many letter exists
@@ -36,16 +38,30 @@ create function called "isAnagramValid"
 ```
 
 # How to use it
-* Download index .html and .js
+* Download the files
 * Save them in some folder
+* Execute `npm install -g typescript`
+* Execute `tsc index.ts`
 * Run in your preferred browser the index.html
+    * If you want to run the tests.
+    * Execute `npm i`
+    * To run test run `npm run test`
+
+# Author
+
+Carlos Mendez
 
 ## Why 0(n)?
+
 This is just to obtain vizually how fast is the program, and is called Big O notation.
+
+### Created at 
+
+Jun 24, 2020
 
 ### Same algorithm, different languages
 
 * [Golang](https://github.com/cjairm/go/tree/master/Algorithms-Go)
 * [Python](https://github.com/cjairm/python/tree/master/Algoritms-Py)
-* [JavaScript](https://github.com/cjairm/typescript/tree/master/Algorithms-TS)
+* [JavaScript](https://github.com/cjairm/javascript/tree/master/Algorithms-JS/001_anagram)
 * [C++(Arduino)](https://github.com/cjairm/arduino/tree/master/Algorithms-Cpp)
