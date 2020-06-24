@@ -6,8 +6,8 @@
     "scripts": {
         "test": "jest"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["anagram", "algorithm", "testing", "typescript"],
+    "author": "Carlos Mendez",
     "license": "ISC",
     "jest": {
         "transform": {
