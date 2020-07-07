@@ -38,6 +38,7 @@ create function called "isAnagramValid"
 ```
 
 # How to use it
+
 * Download the files
 * Save them in some folder
 * Execute `npm install -g typescript`
