@@ -1,4 +1,4 @@
-function numJewelsInStones(J: string, S: string): number {
+var numJewelsInStones = function (J: string, S: string): number {
     const jewels: string[] = J.split("");
     const stones: string[] = S.split("");
 
