@@ -1,0 +1,8 @@
+@mixin queryPoint($breakpoint) {
+  @if $breakpoint == tablet {
+      @media only screen and (min-width: 45em) { @content };    //720px
+  }
+  @if $breakpoint == desktop {
+      @media only screen and (min-width: 64em) { @content };    //1024px
+  }
+}
