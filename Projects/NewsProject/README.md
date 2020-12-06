@@ -20,7 +20,9 @@ It’s a news search app using [NewsAPI](https://newsapi.org/). It's a static ap
 
 
 # Run React Project
-As simple as run the following command
+First, your should go to .env file and add your own API key. You can get one from [her](https://newsapi.org/)
+
+Then, as simple as run the following command
 ```
 npm i
 npm start
